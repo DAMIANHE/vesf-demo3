@@ -101,4 +101,30 @@ button.primary {
   font-size: 0.9rem;
 }
 
+.lead-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 420px;
+}
+
+.lead-form input {
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.lead-form button {
+  margin-top: 16px;
+}
+
+@media (max-width: 900px) {
+  .home {
+    grid-template-columns: 1fr;
+  }
+
+  .home-visual {
+    height: 260px;
+  }
+}
 
