@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Radar from "../../../components/Radar";
-import ScenarioSelector from "../../../components/ScenarioSelector";
+import Radar from "../../components/Radar";
+import ScenarioSelector from "../../components/ScenarioSelector";
 import Link from "next/link";
 
 export default function Escenario() {
