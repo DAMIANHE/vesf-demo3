@@ -39,3 +39,66 @@ button.primary {
   font-size: 1rem;
   cursor: pointer;
 }
+.page {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px;
+}
+
+.intro {
+  max-width: 820px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.scenario-selector {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.scenario-selector button {
+  padding: 10px 18px;
+  border: 1px solid #555;
+  background: transparent;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.scenario-selector button.active {
+  background: #ff4d4f;
+  border-color: #ff4d4f;
+}
+
+.blocked {
+  margin: 24px 0;
+  padding: 16px;
+  background: rgba(255, 77, 79, 0.1);
+}
+
+.impact-van {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.van-value {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.semaphore.red {
+  color: #ff4d4f;
+}
+
+.pdf-preview {
+  margin: 32px 0;
+}
+
+.pdf-note {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+
