@@ -1,4 +1,5 @@
-import PDFPreviewButton from "@/components/PDFPreviewButton";
+import PDFPreviewButton from "../../../components/PDFPreviewButton";
+
 import Link from "next/link";
 
 export default function ImpactoVAN() {
