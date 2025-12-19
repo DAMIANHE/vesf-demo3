@@ -1,6 +1,6 @@
-import Radar from "@/components/Radar";
-import TableVESF from "@/components/TableVESF";
-import MicroPause from "@/components/MicroPause";
+import Radar from "../../components/Radar";
+import TableVESF from "../../components/TableVESF";
+import MicroPause from "../../components/MicroPause";
 import Link from "next/link";
 
 export default function Demo() {
